@@ -56,11 +56,11 @@
       },
       "begin": "\\{(?!#)",
       "patterns": [
+        { "include": "#properties" },
         { "include": "#expressions" },
         { "include": "#predicates" },
         { "include": "#constants" },
         { "include": "#objects" },
-        { "include": "#properties" },
         { "include": "#definitions" },
         { "include": "#formatters" },
         { "include": "#formatters-wargs" },
